@@ -3,7 +3,6 @@ import NestedComponent from './NestedComponent'
 import Students from './Students'
 import StudentsGrades from './StudentsGrades'
 import Teachers from './Teachers'
-import carol from 'carol'
 
 class App extends Component{
   constructor(){

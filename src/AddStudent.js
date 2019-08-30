@@ -5,7 +5,7 @@ class AddStudent extends Component{
     super()
     this.handleSubmit = this.handleSubmit.bind(this)
   }
-  handleSubmit    = (e)=>{
+  handleSubmit  = (e)=>{
     e.preventDefault()
     let form = document.forms.formAdd
     this.props.addStudent({
